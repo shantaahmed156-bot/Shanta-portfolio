@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Card</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome (Correct version) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>CSS Layout Tutorial</h1>
+    <nav>
+      <ul>
+        <li>Profile</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+     <div class="menu-toggle">
+      <i class="fa-solid fa-bars"></i>
+
+     </div>
+    
+  </header>
+
+  <!-- Profile Card -->
+  <div class="card">
+    <div class="card-header">
+      <img src="./image/photo-1507003211169-0a1dd7228f2d.jpeg" alt="Profile Picture">
+      <h2>John Doe</h2>
+      <p class="title">Full Stack Developer</p>
+    </div>
+
+    <div class="card-body">
+      <p class="bio">
+        Passionate developer with 5+ years of experience in creating modern web applications. 
+        Specialized in React, Node.js, and modern CSS frameworks.
+      </p>
+    </div>
+
+    <h3>Skills</h3>
+    <div class="skills">
+      <span>HTML5</span>
+      <span>CSS3</span>
+      <span>JavaScript</span>
+      <span>React</span>
+      <span>Node.js</span>
+    </div>
+
+    <div class="buttons">
+      <button class="btn cv"><i class="fa-solid fa-download"></i> Download CV</button>
+      <button class="btn info"><i class="fa-solid fa-eye"></i> Toggle Info</button>
+    </div>
+
+    <div class="comment">
+      <i class="fa-solid fa-comments"></i>
+    </div>
+  </div>
+
+  <!-- Demo Cards -->
+  <div class="demo-cards">
+    <div class="demo-card">
+      <h3>Box Model Demo</h3>
+      <p>This card demonstrates margin spacing between elements.</p>
+    </div>
+    <div class="demo-card">
+      <h3>Padding Example</h3>
+      <p>Notice the internal spacing (padding) within this card.</p>
+    </div>
+  </div>
+
+</body>
+</html>
